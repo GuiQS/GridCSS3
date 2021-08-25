@@ -1,0 +1,51 @@
+.grid {
+    display: grid;
+}
+
+.item1 {
+	grid-area: item1;
+   background-color: blue;
+}
+
+.item2 {
+	grid-area: item2;
+    background-image: linear-gradient(to right, blue , lightblue);
+}
+
+.item3 {
+	grid-area: item3;
+    background-image: url("/assets/imagem.jpg");
+    background-size: cover;
+}
+
+.gap {
+	gap: 20px;
+}
+
+.column-gap {
+	gap: 2px;
+	column-gap: 20px;
+}
+
+.row-gap {
+	gap: 2px;
+	row-gap: 20px;
+}
+
+
+.grid-template-areas {
+    grid-template-areas: 
+    "item1 item2" 
+    "item1 item3"  ;
+    height: 100%;
+}
+
+.configItens{
+    border: 1px solid black;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

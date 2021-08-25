@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "GridCSS3"
+  "defaultProject": "GridCSS3",
+  "cli": {
+    "analytics": "8ea733dc-07ba-45fc-812e-1eb0e9640ce0"
+  }
 }
